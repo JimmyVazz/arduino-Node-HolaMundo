@@ -1,0 +1,24 @@
+{
+  "name": "arduino-Node-HolaMundo",
+  "version": "1.0.0",
+  "description": "Hola mundo prendiendo y apagando un led desde Node con arduino",
+  "main": "index.js",
+  "scripts": {
+    "firmata": "firmata-party uno --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimmyVazz/arduino-Node-HolaMundo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimmyVazz/arduino-Node-HolaMundo/issues"
+  },
+  "homepage": "https://github.com/JimmyVazz/arduino-Node-HolaMundo#readme",
+  "dependencies": {
+    "firmata": "^2.2.0",
+    "firmata-party": "^2.0.0"
+  }
+}
